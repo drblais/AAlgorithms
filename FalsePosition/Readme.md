@@ -6,14 +6,14 @@ the root of a function between two user input bounds. It's always a good
 idea to plot your function in order to visually estimate your initial  
 bound guesses. This will also help keep your iterations down if you keep  
 maxxing out to maxit.  
-INPUTs:  
+### INPUTs:  
 func : function you're finding the root of  
 xlower : lower bound  
 xupper : upper bound  
 es : error estimate (default is 1E-4) this is a terminal variable (sets a  
 loop termination paramteter)  
 maxit : max iterations allowed (default is 200) also a terminal variable.  
-OUTPUTs:  
+### OUTPUTs:  
 root : most accurate x value near root approximated, or analytical root  
 fx : the function value evaluated at the approximation  
 errapp : the relative approximate percent error   
